@@ -1,0 +1,33 @@
+.Box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 700px;
+}
+
+.Box:hover{
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.appBox-info{
+    display: flex;
+    align-items: center;
+}
+
+.appBox-info > h5{
+    color: rgb(129, 129, 129);
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: large;
+
+}
+
+.appBox-app{
+    display: flex;
+    margin-top: 10px;
+}
+

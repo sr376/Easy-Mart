@@ -1,0 +1,35 @@
+.main-contianer{
+    width: 100%;
+    min-width: fit-content;
+}
+
+.app-contents{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    width: 100%;
+    min-width: fit-content;
+    background-color: rgba(0, 0, 0,0.05);
+}
+
+.app-content{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.react-responsive-modal-modal{
+    width: 90vw;
+    height: 90vh;
+}
+
+.quill{
+    height: 50vh;
+}
+
+.react-responsive-modal-overlay{
+    background: rgb(0 0 0 / 75%);
+}
+
